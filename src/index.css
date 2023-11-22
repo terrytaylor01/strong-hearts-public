@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  .spinner-1 {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #000 #0000;
+    opacity: 0.3;
+    animation: s1 1s infinite;
+  }
+  @keyframes s1 {
+    to {
+      transform: rotate(0.5turn);
+    }
+  }
+  .slick-next::before {
+    color: black;
+  }
+
+  .theme-home {
+    --color-text-primary: #434e3e;
+    --color-text-slogan-text: #323a2e;
+    --color-text-secondary: rgb(255, 255, 255);
+    --color-bg-primary: #fdfffd;
+    --color-divider-fill: #d6f0cd;
+    --color-bg-secondary: #3f4d3a;
+    --color-bg-seconda22ry: #f8fff6;
+    --color-nav: #afde9e;
+    --color-slogan-text: #323a2e;
+    --color-adoption-title: white;
+    --color-viewall: #2d332b;
+    --color-footer: #3f4d3a;
+    --color-fade-start: #fffaf5;
+  }
+  .theme-farm {
+    --color-text-primary: #000;
+    --color-text-secondary: white;
+    --color-text-slogan-text: white;
+    --color-footer: black;
+    --color-bg-primary: white;
+    --color-bg-secondary: #0e0e0e;
+    --color-text-footer: white;
+    --color-text-involved-card: white;
+    --color-fade-start: black;
+    --color-adoption-title: white;
+    --color-divider-fill: #0e0e0e;
+    --color-social-icons: black;
+    --color-nav: black;
+    --color-profile-about: #2e2e2e;
+    --color-slogan-text: white;
+    --color-viewall: rgb(43, 43, 43);
+    --color-profile-icon: white;
+  }
+
+  .theme-cats {
+    --color-profile-about: #fffaf5;
+    --color-text-primary: #5c4b3b;
+    --color-text-secondary: #5c4b3b;
+    --color-text-footer: #5c4b3b;
+    --color-bg-primary: #fffaf5;
+    --color-bg-secondary: #f0e5db;
+    --color-text-involved-card: #392f25;
+    --color-fade-start: #fffaf5;
+    --color-adoption-title: #5c4b3b;
+    --color-divider-fill: #f0e5db;
+    --color-social-icons: #5c4b3b;
+    --color-nav: #392f25;
+    --color-viewall: #5c4b3b;
+    --color-footer: #5c4b3b;
+    --color-profile-icon: #5c4b3b;
+  }
+
+  .theme-dogs {
+    --color-profile-about: #b1d4e2;
+    --color-text-primary: #3b485c;
+    --color-text-secondary: #3b485c;
+    --color-text-footer: #3b485c;
+    --color-bg-primary: #eaf9ff;
+    --color-bg-secondary: #9cc7d8;
+    --color-text-involved-card: #3b485c;
+    --color-fade-start: #dbebf0;
+    --color-adoption-title: #3b485c;
+    --color-divider-fill: #9cc7d8;
+    --color-social-icons: #3b485c;
+    --color-nav: #3b485c;
+    --color-viewall: #3b485c;
+    --color-footer: #3b485c;
+    --color-profile-icon: #3b485c;
+  }
+
+  .theme-buns {
+    --color-profile-about: #e2cae9;
+    --color-text-primary: #644765;
+    --color-text-secondary: #644765;
+    --color-text-footer: #644765;
+    --color-bg-primary: #fbf5ff;
+    --color-bg-secondary: #cfaed8;
+    --color-text-involved-card: white;
+    --color-fade-start: #cfaed8;
+    --color-adoption-title: white;
+    --color-divider-fill: #cfaed8;
+    --color-social-icons: #644765;
+    --color-nav: #644765;
+    --color-viewall: #644765;
+    --color-footer: #644765;
+    --color-profile-icon: #644765;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

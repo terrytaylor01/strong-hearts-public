@@ -1,0 +1,47 @@
+.listing-gallery .image-gallery-slide .image-gallery-image {
+  border-radius: 1.5rem;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 6/7;
+}
+
+.listing-gallery .image-gallery-thumbnail .image-gallery-thumbnail-image {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  aspect-ratio: 6/7;
+}
+
+.listing-gallery .image-gallery-thumbnail {
+  max-width: 90px;
+  width: clamp(45px, 55px, 90px);
+}
+
+.listing-gallery .image-gallery-thumbnails-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.listing-gallery .image-gallery-thumbnail.active {
+  border: none;
+  transform: none;
+}
+
+.listing-gallery .image-gallery-thumbnail:hover {
+  outline: none;
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.75rem;
+}
+
+.listing-gallery .image-gallery-thumbnail.active:hover {
+  border: none;
+  transform: none;
+  border: none;
+  transform: none;
+}
+
+.slogan-gallery .image-gallery-slide .image-gallery-image {
+  border-radius: 1.5rem;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 15/10;
+}
