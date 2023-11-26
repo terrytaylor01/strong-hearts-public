@@ -43,6 +43,7 @@
     --color-viewall: #2d332b;
     --color-footer: #3f4d3a;
     --color-fade-start: #fffaf5;
+    --color-fade-mid: #fffaf5bb;
   }
   .theme-farm {
     --color-text-primary: #000;

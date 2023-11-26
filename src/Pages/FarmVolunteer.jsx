@@ -145,7 +145,7 @@ export default function FarmVolunteer() {
             slideInterval={5000}
             autoPlay={true}
             loading="lazy"
-            showNav={false}
+            showNav={true}
             showBullets={true}
             showThumbnails={false}
             showPlayButton={false}

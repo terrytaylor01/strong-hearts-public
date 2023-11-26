@@ -31,13 +31,18 @@ export default function FarmAdopt() {
         <div className="mt-12 flex w-[100vw] flex-col  items-center justify-center gap-12 py-2 text-skin-textprimary md:mt-28 md:flex-row">
           <div className="mt-2 flex flex-col gap-6 pl-10 sm:mt-2 sm:w-fit sm:px-8 md:pl-28">
             <h1 className="text-3xl text-[2.5rem] xl:text-7xl">
-              Adopt farmed ipsums
+              Adopting
             </h1>
             <p className="max-w-[1000px] pr-10 text-base font-light lg:pr-0 xl:mb-6 xl:text-3xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Open your heart to a world of joy unlike any other - adopt a
+              farmed animal today! Our sanctuary is home to many beautiful,
+              loving farmed animals who are waiting to become a part of your
+              life. By adopting, you’re not just giving an animal a safe and
+              happy home, but also supporting our mission to rescue and protect
+              these wonderful creatures. Each adoption story is a beacon of hope
+              that shines light on the compassionate choices we can all make.
+              Adopt, and let their gratitude and friendship fill your life with unconditional
+              love and profound joy.
             </p>
             <span className="flex flex-col gap-2 md:flex-row md:gap-8">
               <button

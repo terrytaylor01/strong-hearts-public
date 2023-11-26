@@ -48,6 +48,7 @@ export default {
       gradientColorStops: {
         skin: {
           fadeStart: "var(--color-fade-start)",
+          fadeMid: "var(--color-fade-mid)"
         },
       },
       fill: {
