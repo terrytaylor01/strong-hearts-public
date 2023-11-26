@@ -4,6 +4,7 @@
 Welcome to the repository for the Strong Hearts Sanctuary website. This project was a comprehensive endeavor to create a dynamic, aesthetically pleasing, and user-friendly website for a local animal rescue organization with multiple branches. Each branch has its own unique branding, which was a key consideration during the development process.
 
 ## Deployment
+[See live deployment here](https://strong-hearts-website-gh.pages.dev/)
 
 ## Technologies Used
 The website was built using a combination of modern technologies to ensure performance, security, and maintainability. The core technologies used include:
@@ -41,3 +42,7 @@ The successful deployment of the site using Cloudflare Pages not only shows my s
 Overall, this project serves as a testament to my skills as a front-end developer. It demonstrates my ability to design and develop a large-scale, aesthetically pleasing website that ties into the brand image, while also implementing practical and realistic functions in a commercial/public-facing website. It showcases my organizational skills, client engagement, problem-solving abilities, and understanding of modern web technologies and third-party services.
 
 ## Screenshots
+![Home Page](https://imgur.com/ZkW7nWG.jpg)
+![Adoption carousel](https://imgur.com/adRggET.jpg)
+![Adoption Listings](https://imgur.com/bXZskIL.jpg)
+![Get Involved Section](https://imgur.com/C9brmDN.jpg)
